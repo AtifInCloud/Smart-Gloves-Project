@@ -2,6 +2,9 @@
 
 This project aims to design a wearable device that translates hand gestures into speech or text, facilitating communication for deaf and mute individuals.
 
+## Project Overview
+The Smart Gloves use a combination of flex sensors, an MPU6050 accelerometer and gyroscope, and machine learning algorithms to recognize and translate gestures.
+
 ## Technologies Used
 - Arduino Mega 2560
 - Flex Sensors
@@ -15,7 +18,13 @@ This project aims to design a wearable device that translates hand gestures into
 Upload the `smart_gloves.ino` file to your Arduino Mega 2560.
 
 ### Python
-Install the required Python libraries and run the `smart_gloves_ml.py` script.
+Install the required Python libraries and run the `live_signal.py` and `trainingmodel.py` scripts.
+
+## Files and Directories
+- `Arduino_Code/`: Contains the Arduino source code.
+- `Python_Code/`: Contains the Python scripts for data processing and model training.
+- `Documentation/`: Contains project documentation and related files.
+- `Media/`: Contains media files demonstrating the project.
 
 ## Future Prospects
 - Expanded vocabulary of gestures
